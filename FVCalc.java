@@ -12,7 +12,7 @@ public class FVCalc {
             loop--;  
         }
 
-        System.out.println("After "+ years + " years, $"+ (int)currentValue + " saved at " +
+        System.out.println("After "+ years + " years, a $"+ (int)currentValue + " saved at " +
 		rate + "% will yield $" + (int)futureValue );
     }
 }
